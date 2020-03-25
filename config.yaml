@@ -35,7 +35,7 @@ languages:
       topbar:
         - weight: 1
           name: GitHub
-          url: 'https://github.com/neurodatascience/NeuroDataSci-course-2020/'
+          url: 'https://github.com/neurodatascience/course-2020/'
           pre: <i class='fab fa-2x fa-github'></i>
         - weight: 2
           name: Email
