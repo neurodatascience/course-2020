@@ -1,0 +1,50 @@
+# List of instructors for BHS 2020 (alphabetical order)
+#
+# valid tags: name, gh(github), email, website, affiliation, urlaff (affiliation's url), twitter, week, weight (if you want to sort them in some order)
+#
+# collection names should be equal to github username, if not, add github: false tag
+# img should be taken directly from GitHub, if no username, simply add it into img/instructors
+# content can be added as markdown.
+title: Instructors
+
+instructors:
+  - name: Elizabeth DuPre
+    gh: emdupre
+    email: elizabeth.dupre@mail.mcgill.ca
+    website: https://emdupre.me
+    affiliation: McGill University
+    urlaff: https://www.mcgill.ca/
+    twitter: emdupre_
+
+  - name: Jean-Baptiste Poline
+    gh: jbpoline
+    email:
+    website:
+    affiliation: McGill University
+    urlaff: https://www.mcgill.ca/
+    twitter: jbpoline
+    img: img/instructors/jb.png
+
+  - name: Ross Markello
+    gh: rmarkello
+    email: ross.markello@mail.mcgill.ca
+    website: https://rossmarkello.com
+    affiliation: McGill University
+    urlaff: https://www.mcgill.ca/
+    twitter: rossdavism
+
+  - name: Peer Herholz
+    gh: PeerHerholz
+    email: peer.herholz@mcgill.ca
+    website: https://peerherholz.github.io/
+    affiliation: McGill University
+    urlaff: https://www.mcgill.ca/
+    twitter: peerherholz
+
+  - name: Jake Vogel
+    gh: illdopejake
+    email: jake.vogel@mail.mcgill.ca
+    website:
+    affiliation: McGill University
+    urlaff: https://www.mcgill.ca/
+    twitter: _JakeVogel_

@@ -1,0 +1,5 @@
+weight: 2
+name: "Develop a reusable toolset"
+icon: "fa fa-cogs"
+url: ""
+description: "Learn how to use reproducible tools like Git, Docker, and more"
