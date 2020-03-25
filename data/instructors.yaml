@@ -8,13 +8,6 @@
 title: Instructors
 
 instructors:
-  - name: Elizabeth DuPre
-    gh: emdupre
-    email: elizabeth.dupre@mail.mcgill.ca
-    website: https://emdupre.me
-    affiliation: McGill University
-    urlaff: https://www.mcgill.ca/
-    twitter: emdupre_
 
   - name: Jean-Baptiste Poline
     gh: jbpoline
@@ -25,13 +18,13 @@ instructors:
     twitter: jbpoline
     img: img/instructors/jb.png
 
-  - name: Ross Markello
-    gh: rmarkello
-    email: ross.markello@mail.mcgill.ca
-    website: https://rossmarkello.com
+  - name: Elizabeth DuPre
+    gh: emdupre
+    email: elizabeth.dupre@mail.mcgill.ca
+    website: https://emdupre.me
     affiliation: McGill University
     urlaff: https://www.mcgill.ca/
-    twitter: rossdavism
+    twitter: emdupre_
 
   - name: Peer Herholz
     gh: PeerHerholz
@@ -40,6 +33,14 @@ instructors:
     affiliation: McGill University
     urlaff: https://www.mcgill.ca/
     twitter: peerherholz
+
+  - name: Ross Markello
+    gh: rmarkello
+    email: ross.markello@mail.mcgill.ca
+    website: https://rossmarkello.com
+    affiliation: McGill University
+    urlaff: https://www.mcgill.ca/
+    twitter: rossdavism
 
   - name: Jake Vogel
     gh: illdopejake

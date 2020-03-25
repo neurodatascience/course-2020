@@ -2,7 +2,6 @@
 {{ if .Site.Params.features.enable }}
 {{ $myData := (index .Site.Data) }}
 {{ if $myData }}
-{{ if (isset $myData "features" ) }}
 {{ if gt (len $myData.features) 0 }}
 <section class="bar background-white" style="margin-bottom:0;padding-bottom:25px">
     <div class="container">
@@ -33,7 +32,6 @@
         {{ end }}
     </div>
 </section>
-{{ end }}
 {{ end }}
 {{ end }}
 {{ end }}
