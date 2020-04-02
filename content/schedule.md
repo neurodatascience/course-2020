@@ -6,12 +6,12 @@ type = "schedule"
 ## Monday, May 11
 
 ```
-09:00    Course introduction  
-10:00    Modern reproducibility problems in the life sciences  
-11:00    Set-up and installation troubleshooting
-12:00    Lunch  
-13:00    Introduction to the terminal  
-14:00    Introduction to git and GitHub  
+09:00    Course introduction
+10:00    Modern reproducibility problems in the life sciences
+11:00    Set-up and installation
+12:00    Lunch
+13:00    Introduction to the terminal
+14:00    Introduction to git and GitHub
 ```
 
 ## Tuesday, May 12
@@ -27,6 +27,7 @@ type = "schedule"
 
 ```
 09:00    Standards for project management and organization
+10:30    Tools for project management and organization
 12:00    Lunch
 13:00    High-performance computing
 ```
@@ -34,7 +35,8 @@ type = "schedule"
 ## Thursday, May 14
 
 ```
-09:00    Visualizing data and introduction to statistical analysis
+09:00    Data visualization
+10:30    Introduction to classical statistics
 12:00    Lunch
 13:00    Introduction to machine learning
 16:30    Feedback for review sessions on Friday
@@ -43,7 +45,8 @@ type = "schedule"
 ## Friday, May 15
 
 ```
-09:00    Deep learning
+09:00    Fundamentals of deep learning in neuroscience
+10:30    Applications of deep learning in neuroscience
 12:00    Lunch
 13:00    Epistemology and lessons from the past
 14:00    Review session 1
