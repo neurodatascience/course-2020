@@ -24,27 +24,21 @@ function check_installed() {
 }
 
 function get_os() {
-    UNAME=$( command -v uname)
+    UNAME=$( $( command -v uname) -a | tr '[:upper:]' '[:lower:]' )
 
-    case $( "${UNAME}" | tr '[:upper:]' '[:lower:]') in
-        linux*)
-            printf 'linux\n'
-            ;;
-        darwin*)
-            printf 'darwin\n'
-            ;;
-        msys*|cygwin*|mingw*)
-            # or possible 'bash on windows'
-            printf 'windows\n'
-            ;;
-        nt|win*)
-            printf 'windows\n'
-            ;;
-        *)
-            printf 'unknown\n'
-            ;;
-    esac
+    if echo "${UNAME}" | grep -q "microsoft"; then
+        printf "windows\n"
+    elif echo "${UNAME}" | grep -q "darwin"; then
+        printf "darwin\n"
+    elif echo "${UNAME}" | grep -q "linux"; then
+        printf "linux\n"
+    else
+        printf "unknown\n"
+    fi
 }
+
+
+curr_os=$( get_os) 
 
 # expected VSCode extensions
 extensions=(
@@ -54,7 +48,7 @@ extensions=(
     ms-vsliveshare.vsliveshare-audio
     ms-vsliveshare.vsliveshare-pack
 )
-if [ $( get_os ) == "windows" ]; then
+if [ "${curr_os}" == "windows" ]; then
     extensions+=(ms-vscode-remote.remote-wsl)
 fi
 
@@ -81,7 +75,14 @@ check_installed code
 check_installed docker
 
 # check vscode extensions
-vscode_ext=$( code --list-extensions )
+
+if [ "${curr_os}" == "windows" ]; then
+    /mnt/c/Windows/system32/cmd.exe /c "code --list-extensions" > /tmp/vscode_ext 2> /dev/null
+    vscode_ext=$( cat /tmp/vscode_ext )
+    rm /tmp/vscode_ext
+else
+    vscode_ext=$( code --list-extensions )
+fi
 for ext in ${extensions[@]}; do
     if [[ $vscode_ext != *${ext}* ]]; then
         ext=$( echo "${ext}" | tr '[:upper:]' '[:lower:]' )
@@ -103,8 +104,16 @@ done
 
 # congratulations, you did it!
 if [ -z ${missing} ]; then
-    python -c 'print("\U0001f389" * 3, end=" ")'
+    if [ "${curr_os}" != "windows" ]; then
+        python -c 'print("\U0001f389" * 3, end=" ")'
+    fi
     printf "Everything seems to be installed correctly! "
-    python -c 'print("\U0001f389" * 3)'
+    if [ "${curr_os}" != "windows" ]; then
+        python -c 'print("\U0001f389" * 3)'
+    else
+        printf "\n"
+    fi
     printf "Congratulations, you're all ready for the NDS course!\n"
 fi
+
+exit 0
