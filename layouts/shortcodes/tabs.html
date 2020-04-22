@@ -1,4 +1,4 @@
-<ul class="nav nav-tabs" id="nav-tab" role="tablist">
+<ul class="nav nav-tabs" role="tablist">
 
     {{ $tabTotal := .Get "tabTotal" }}
     {{ range $i, $sequence := (seq $tabTotal) }}
@@ -10,7 +10,7 @@
     {{ if eq $sequence 1 }}
 
     <li class="active nav-item">
-        <a id="nav-{{ $tabID }}" data-toggle="tab" href="#{{ $tabHREF | urlize }}" role="tab">
+        <a id="nav-{{ $tabID }}-{{ $sequence }}" data-toggle="tab" href="#{{ $tabHREF | urlize }}" role="tab">
             {{ $.Get $tabName }}
         </a>
     </li>
@@ -18,7 +18,7 @@
     {{ else }}
 
     <li class="nav-item">
-        <a id="nav-{{ $tabID }}" data-toggle="tab" href="#{{ $tabHREF | urlize }}" role="tab">
+        <a id="nav-{{ $tabID }}-{{ $sequence }}" data-toggle="tab" href="#{{ $tabHREF | urlize }}" role="tab">
             {{ $.Get $tabName }}
         </a>
     </li>
