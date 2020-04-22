@@ -321,7 +321,7 @@ If you have questions during the installation procedure please check that link f
 ### Bash shell
 
 You already have it!
-Depending on which version of Linuxyou’re running you may need to type `bash` inside the terminal to access it.
+Depending on which version of Linux you’re running you may need to type `bash` inside the terminal to access it.
 To check whether this is necessary, follow these steps:
 
 1. Open a terminal and type `echo $SHELL`.
