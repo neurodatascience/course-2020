@@ -2818,7 +2818,6 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .tab-content {
   padding: 15px;
-  border: solid 1px #ddd;
   border-top: none;
 }
 /* navbar */
