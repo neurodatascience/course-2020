@@ -38,7 +38,7 @@ function get_os() {
 }
 
 
-curr_os=$( get_os) 
+curr_os=$( get_os )
 
 # expected VSCode extensions
 extensions=(
@@ -77,9 +77,8 @@ check_installed docker
 # check vscode extensions
 
 if [ "${curr_os}" == "windows" ]; then
-    /mnt/c/Windows/system32/cmd.exe /c "code --list-extensions" > /tmp/vscode_ext 2> /dev/null
+    cmd.exe /c "code --list-extensions" > /tmp/vscode_ext 2> /dev/null
     vscode_ext=$( cat /tmp/vscode_ext )
-    rm /tmp/vscode_ext
 else
     vscode_ext=$( code --list-extensions )
 fi
