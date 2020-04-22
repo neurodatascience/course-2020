@@ -347,7 +347,7 @@ Now that you've installed everything it's time to check that everything works as
 Type the following into your terminal:
 
 ``` bash
-wget https://neurodatasci-course-2020.netlify.com/resources/nds_check_install.sh
+wget https://neurodatasci-course-2020.netlify.app/resources/nds_check_install.sh
 bash nds_check_install.sh
 ```
 

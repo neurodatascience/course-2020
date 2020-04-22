@@ -106,5 +106,5 @@ if [ -z ${missing} ]; then
     python -c 'print("\U0001f389" * 3, end=" ")'
     printf "Everything seems to be installed correctly! "
     python -c 'print("\U0001f389" * 3)'
-    printf "Congratulations, you're all ready for the NDS course! "
+    printf "Congratulations, you're all ready for the NDS course!\n"
 fi
