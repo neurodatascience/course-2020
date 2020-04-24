@@ -44,7 +44,7 @@ You already have it, now that you’ve installed the WSL!
 #### VSCode extensions
 
 1. Open the Ubuntu application.
-1. Type `code.` into the terminal and press `Enter`.
+1. Type `code .` into the terminal and press `Enter`.
    You should see a message reading "Installing VS Code Server" and then a new windows will open up.
 1. Press `Ctrl+Shift+P` in the new window that opens and type "Extensions: Install extensions" into the search bar that appears at the top of the screen.
    Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads "Extensions: Install extensions").
