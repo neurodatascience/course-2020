@@ -3,6 +3,13 @@ title = "Setup"
 type = "setup"
 +++
 
+<span style="font-size: 1.5em;">
+<b>PLEASE NOTE</b>: You do not need to install all this software immediately.
+We will be setting up several "installation office hours" during the week of 4-8 May to help any students who run into any issues or have any questions about the instructions described below.
+You only need to have completed these instructions by the beginning of the course (11 May).
+If you have any questions in the interim feel free to ask them on the BHS Slack channel #help-installation.
+</span>
+
 ## General computing requirements
 
 There are a few computing requirements for the course that are absolutely necessary (beyond the few software packages we would like you to install, described below):
