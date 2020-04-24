@@ -45,7 +45,7 @@ If you do not see something like “git version X.XX.X” printed out, then foll
 1. Open a new terminal and type the following lines (separately) into the terminal, pressing `Enter` after each one:
 
    ``` bash
-   wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+   curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
    bash Miniconda3-latest-MacOSX-x86_64.sh
    ```
 
