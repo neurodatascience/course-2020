@@ -92,7 +92,7 @@ languages:
       see_more:
         enable: true
         icon: far fa-file-alt
-        title: 'Fundamental for Neuro Data Science'
+        title: 'Fundamentals for Neuro Data Science'
         subtitle: A week-long introduction to the foundations of neuro- and data science, in preparation for the [BrainHack School](https://school.brainhackmtl.org/).
         link_url: about/
         link_text: Learn more
