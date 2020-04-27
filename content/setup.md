@@ -48,7 +48,11 @@ The rest of this page provides more detail on installation procedures for each o
 
 ### OS-specific installation instructions
 
-Select the tab that corresponds to your operating system and follow the instructions therein:
+Select the tab that corresponds to your operating system and follow the instructions therein.
+
+**Note**: If the instructions below aren't working and you have spent more than 15-20 minutes troubleshooting on your own, reach out on the #help-installation channel on the BHS Slack with the exact problems you're having.
+One of the instructors will try and get back to you quickly to help resolve the situation.
+If they're unable to help via Slack, you may be directed to attend one of the installation office hours during the week of 4-8 May.
 
 {{< tabs tabTotal="3" tabID="setup" tabName1="Windows" tabName2="Mac OS" tabName3="Linux" >}}
 {{< tab tabNum="1" >}} {{% content "_setup/windows.md" %}} {{< /tab >}}
