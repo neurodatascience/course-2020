@@ -75,7 +75,7 @@ You already have it, now that you’ve installed the WSL!
 1. Re-open the Ubuntu application.
    Type `which python` into the terminal and it should return a path (e.g., `/home/$USER/miniconda3/bin/python`).
    - If you do not see a path like this then please try typing `conda init`, closing your terminal, and repeating this step.
-     If your issue is still not resolved skip the following step and contact an instructor for further help.
+     If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel on the BHS Slack.
 1. Type the following to remove the installation script that was downloaded:
 
    ``` bash
@@ -151,20 +151,24 @@ Because there are fewer requirements for Docker Toolbox, it is likely that you w
 
    ``` bash
    --tlsverify
-   --tlscacert="C:\\Users\\$USER\\.docker\\machine\\machines\\default\\ca.pem"
-   --tlscert="C:\\Users\\$USER\\.docker\\machine\\machines\\default\\cert.pem"
-   --tlskey="C:\\Users\\$USER\\.docker\\machine\\machines\\default\\key.pem"
-   -H=tcp://192.168.99.104:2376
+   --tlscacert="C:\\Users\\<YOUR_USERNAME>\\.docker\\machine\\machines\\default\\ca.pem"
+   --tlscert="C:\\Users\\<YOUR_USERNAME>\\.docker\\machine\\machines\\default\\cert.pem"
+   --tlskey="C:\\Users\\<YOUR_USERNAME>\\.docker\\machine\\machines\\default\\key.pem"
+   -H=tcp://xxx.xxx.xx.xxx:xxxx
    ```
 
+   where `<YOUR_USERNAME>` will have an actual value (likely your Windows username), and `tcp=xxx.xxx.xx.xxx:xxx` will be a series of numbers.
    If you don't get this output then something has gone wrong.
    Please make sure you were able to run the `docker run hello-world` command, above.
-   If you were and you still don't receive this output, please contact one of the instructors for more help.
-1. Copy-paste the following commmands:
+   If you were and you still don't receive this output, please contact one of the instructors on the #help-installation channel on the BHS Slack.
+1. You will use the the outputs of the above command to modify the commands below before running them in the terminal.
+   First, take the numbers printed in place of the `x`s on the output of the line `-H=tcp://xxx.xxx.xx.xxx:xxxx` from above and replace the placeholder `xxx.xxx.xx.xxx:xxxx` on the first command below (`export DOCKER_HOST`).
+   Second, take whatever value is printed in place of `<YOUR_USERNAME>` above and replace the `<YOUR_USERNAME>` placeholder on the second command below (`export DOCKER_CERT_PATH`).
+   Once you have updated the commands appropriately, copy and paste them into the terminal:
 
    ```bash
-   echo "export DOCKER_HOST=tcp://192.168.99.104:2376" >> $HOME/.bashrc
-   echo "export DOCKER_CERT_PATH=/mnt/c/Users/YOUR_USERNAME/.docker/machine/certs" >> $HOME/.bashrc
+   echo "export DOCKER_HOST=tcp://xxx.xxx.xx.xxx:xxxx" >> $HOME/.bashrc
+   echo "export DOCKER_CERT_PATH=/mnt/c/Users/<YOUR_USERNAME>/.docker/machine/certs" >> $HOME/.bashrc
    echo "export DOCKER_TLS_VERIFY=1" >> $HOME/.bashrc
    ```
 
