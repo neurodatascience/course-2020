@@ -176,5 +176,8 @@ Because there are fewer requirements for Docker Toolbox, it is likely that you w
    Type `docker run hello-world`.
    The same brief introductory message you saw before should be printed to the screen.
 
+**Note**: If you restart your computer (or somehow otherwise shut down the Docker VM) you will need to re-open the "Docker Quickstart" application and wait until you see the `$` prompt again before your `docker` commands will work again!
+If you are having problems running `docker` commands in the terminal, try re-opening the "Docker Quickstart" application.
+
 (The above step-by-step instructions are distilled from [here](https://docs.docker.com/toolbox/toolbox_install_windows/) and [here](https://medium.com/@joaoh82/setting-up-docker-toolbox-for-windows-home-10-and-wsl-to-work-perfectly-2fd34ed41d51).
 If you have questions during the installation procedure please check those links for potential answers!)

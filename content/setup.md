@@ -4,10 +4,8 @@ type = "setup"
 +++
 
 <span style="font-size: 1.5em;">
-<b>PLEASE NOTE</b>: You do not need to install all this software immediately.
-We will be setting up several "installation office hours" during the week of 4-8 May to help any students who run into any issues or have any questions about the instructions described below.
-You only need to have completed these instructions by the beginning of the course (11 May).
-If you have any questions in the interim feel free to ask them on the BHS Slack channel #help-installation.
+<b>NOTE</b>: We are hosting installation office hours this week!
+Please check <a href="https://bit.ly/bhs_installofficehours">https://bit.ly/bhs_installofficehours</a> for more information.
 </span>
 
 ## General computing requirements
