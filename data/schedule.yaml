@@ -2,6 +2,11 @@ agenda_title: QLSC 612 Course Schedule
 agenda_subtitle: |
     Course materials should be posted ~24 hours in advance of each lecture.
     Check the course [OSF project](https://osf.io/3kvzu/) for the most up-to-date view of course content!
+    \
+    \
+    The Zoom Meeting ID for the course is [923-1709-1379](https://zoom.us/j/92317091379);
+    please refer to the #schedule channel of the BHS Slack for the password.
+    Note that sessions *will be recorded* and we will do our utmost to upload them in a timely fashion!
 
 schedule:
 - week: Week 1
@@ -158,11 +163,13 @@ schedule:
       dateStart:  2020-05-15T14:00:00-04:00
       dateEnd:    2020-05-15T15:00:00-04:00
       description:
+      instructor: TBA
 
     - title: Review session 2
       dateStart:  2020-05-15T15:00:00-04:00
       dateEnd:    2020-05-15T16:00:00-04:00
       description:
+      instructor: TBA
 
     - title: Assessment 2
       dateStart:  2020-05-15T16:00:00-04:00
