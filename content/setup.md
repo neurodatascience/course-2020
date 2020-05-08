@@ -3,11 +3,6 @@ title = "Setup"
 type = "setup"
 +++
 
-<span style="font-size: 1.5em;">
-<b>NOTE</b>: We are hosting installation office hours this week!
-Please check <a href="https://bit.ly/bhs_installofficehours">https://bit.ly/bhs_installofficehours</a> for more information.
-</span>
-
 ## General computing requirements
 
 There are a few computing requirements for the course that are absolutely necessary (beyond the few software packages we would like you to install, described below):
