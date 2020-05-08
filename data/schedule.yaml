@@ -1,0 +1,170 @@
+agenda_title: QLSC 612 Course Schedule
+agenda_subtitle: |
+    Course materials should be posted ~24 hours in advance of each lecture.
+    Check the course [OSF project](https://osf.io/3kvzu/) for the most up-to-date view of course content!
+
+schedule:
+- week: Week 1
+  days:
+  - date: 2020-05-11 # Monday
+    sessions:
+    - title: Course introduction
+      dateStart: 2020-05-11T09:00:00-04:00
+      dateEnd:   2020-05-11T10:00:00-04:00
+    #   description: |
+    #     Neuroscientists increasingly rely on advanced methodological tools and procedures for their research.
+    #     Learning the fundamentals of these techniques is, thus, critical.
+    #     This lecture will introduce students to the course and provide an overview of what we will be covering throughout the week.
+      instructor: J.B. Poline
+    #   materials: |
+    #     [Slides](), [Content]()
+
+    - title: Modern reproducibility problems in the life sciences
+      dateStart:  2020-05-11T10:00:00-04:00
+      dateEnd:    2020-05-11T11:00:00-04:00
+    #   description: |
+    #     Concurrently, there is a growing concern in the life sciences that many results produced are difficult or even impossible to reproduce, commonly referred to as the “reproducibility crisis.”
+      instructor: J.B. Poline
+      materials:
+
+    - title: Set-up and installation
+      dateStart:  2020-05-11T11:00:00-04:00
+      dateEnd:    2020-05-11T12:00:00-04:00
+      description:
+      materials:
+
+    - title: Lunch
+      dateStart: 2020-05-11T12:00:00-04:00
+      dateEnd:   2020-05-11T13:00:00-04:00
+    #   description: Eat "together" on Zoom or on your own, but make sure to take a break.
+      materials:
+
+    - title: Introduction to the terminal
+      dateStart:  2020-05-11T13:00:00-04:00
+      dateEnd:    2020-05-11T14:00:00-04:00
+    #   description: Your terminal will become your best friend by the end of the school!
+      instructor: Ross Markello
+      materials:
+
+    - title: Introduction to git and GitHub
+      dateStart:  2020-05-11T14:00:00-04:00
+      dateEnd:    2020-05-11T17:00:00-04:00
+    #   description: Git / Github will become your _second_ best friend(s)!
+      instructor: Elizabeth DuPre
+      materials:
+
+  - date: 2020-05-12 # Tuesday
+    sessions:
+    - title: Python for data analysis
+      dateStart:  2020-05-12T09:00:00-04:00
+      dateEnd:    2020-05-12T12:00:00-04:00
+    #   description: Data science offers a key set of tools and methods to efficiently analyse, visualize, and interpret neuroscience data
+      instructor: Ross Markello
+
+    - title: Lunch
+      dateStart:  2020-05-12T12:00:00-04:00
+      dateEnd:    2020-05-12T13:00:00-04:00
+
+    - title: Containerization with Docker
+      dateStart:  2020-05-12T13:00:00-04:00
+      dateEnd:    2020-05-12T16:30:00-04:00
+      instructor: Peer Herholz
+
+    - title: Assessment 1
+      dateStart:  2020-05-12T16:30:00-04:00
+      dateEnd:    2020-05-12T17:30:00-04:00
+
+  - date: 2020-05-13 # Wednesday
+    sessions:
+    - title: Standards for project management and organization
+      dateStart: 2020-05-13T09:00:00-04:00
+      dateEnd:    2020-05-13T10:30:00-04:00
+      description:
+      instructor: Elizabeth DuPre
+
+    - title: Tools for project management and organization
+      dateStart:  2020-05-13T10:30:00-04:00
+      dateEnd:    2020-05-13T12:00:00-04:00
+      description:
+      instructor: Chris Markiewicz
+
+    - title: Lunch
+      dateStart:  2020-05-13T12:00:00-04:00
+      dateEnd:    2020-05-13T13:00:00-04:00
+      description:
+
+    - title: High-performance computing
+      dateStart:  2020-05-13T13:00:00-04:00
+      dateEnd:    2020-05-13T16:30:00-04:00
+      description:
+      instructor: Felix-Antoine Fortin
+
+  - date: 2020-05-14 # Thursday
+    sessions:
+    - title: Data visualization
+      dateStart: 2020-05-14T09:00:00-04:00
+      dateEnd:   2020-05-14T10:30:00-04:00
+      description:
+      instructor: Peer Herholz
+
+    - title: Introduction to classical statistics
+      dateStart:  2020-05-14T10:30:00-04:00
+      dateEnd:    2020-05-14T12:00:00-04:00
+      description:
+      instructor: J.B. Poline
+
+    - title: Lunch
+      dateStart:  2020-05-14T12:00:00-04:00
+      dateEnd:    2020-05-14T13:00:00-04:00
+      description:
+
+    - title: Introduction to machine learning
+      dateStart:  2020-05-14T13:00:00-04:00
+      dateEnd:    2020-05-14T16:30:00-04:00
+      description:
+      instructor: Estefany Suarez & Jake Vogel
+
+    - title: Feedback for review sessions on Friday
+      dateStart:  2020-05-14T16:30:00-04:00
+      dateEnd:    2020-05-14T17:00:00-04:00
+      description:
+
+  - date: 2020-05-15 # Friday
+    sessions:
+    - title: Fundamentals of deep learning in neuroscience
+      dateStart: 2020-05-15T09:00:00-04:00
+      dateEnd:   2020-05-15T10:30:00-04:00
+      description:
+      instructor: Blake Richards
+
+    - title: Applications of deep learning in neuroscience
+      dateStart:  2020-05-15T10:30:00-04:00
+      dateEnd:    2020-05-15T12:00:00-04:00
+      description:
+      instructor: Jakub Kaczmarzyk
+
+    - title: Lunch
+      dateStart:  2020-05-15T12:00:00-04:00
+      dateEnd:    2020-05-15T13:00:00-04:00
+      description:
+
+    - title: Epistemology and lessons from the past
+      dateStart:  2020-05-15T13:00:00-04:00
+      dateEnd:    2020-05-15T14:00:00-04:00
+      description:
+      instructor: J.B. Poline
+
+    - title: Review session 1
+      dateStart:  2020-05-15T14:00:00-04:00
+      dateEnd:    2020-05-15T15:00:00-04:00
+      description:
+
+    - title: Review session 2
+      dateStart:  2020-05-15T15:00:00-04:00
+      dateEnd:    2020-05-15T16:00:00-04:00
+      description:
+
+    - title: Assessment 2
+      dateStart:  2020-05-15T16:00:00-04:00
+      dateEnd:    2020-05-15T17:00:00-04:00
+      description:
