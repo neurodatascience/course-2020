@@ -16,8 +16,8 @@ schedule:
     #     Learning the fundamentals of these techniques is, thus, critical.
     #     This lecture will introduce students to the course and provide an overview of what we will be covering throughout the week.
       instructor: J.B. Poline
-    #   materials: |
-    #     [Slides](), [Content]()
+      materials: |
+        Slides [1](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/01-course-introduction/course-introduction.pdf) [2](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/01-course-introduction/brainhack-school2020.pdf)
 
     - title: Modern reproducibility problems in the life sciences
       dateStart:  2020-05-11T10:00:00-04:00
@@ -25,7 +25,8 @@ schedule:
     #   description: |
     #     Concurrently, there is a growing concern in the life sciences that many results produced are difficult or even impossible to reproduce, commonly referred to as the “reproducibility crisis.”
       instructor: J.B. Poline
-      materials:
+      materials: |
+        [Slides](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/02-modern-reproducibility-problems/modern-reproducibility-problems.pdf)
 
     - title: Set-up and installation
       dateStart:  2020-05-11T11:00:00-04:00
@@ -44,14 +45,16 @@ schedule:
       dateEnd:    2020-05-11T14:00:00-04:00
     #   description: Your terminal will become your best friend by the end of the school!
       instructor: Ross Markello
-      materials:
+      materials: |
+        [Materials](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/03-intro-to-shell/introduction-to-shell.ipynb)
 
     - title: Introduction to git and GitHub
       dateStart:  2020-05-11T14:00:00-04:00
       dateEnd:    2020-05-11T17:00:00-04:00
     #   description: Git / Github will become your _second_ best friend(s)!
       instructor: Elizabeth DuPre
-      materials:
+      materials: |
+        [Materials](https://emdupre.github.io/git-course/)
 
   - date: 2020-05-12 # Tuesday
     sessions:
@@ -60,6 +63,8 @@ schedule:
       dateEnd:    2020-05-12T12:00:00-04:00
     #   description: Data science offers a key set of tools and methods to efficiently analyse, visualize, and interpret neuroscience data
       instructor: Ross Markello
+      materials:
+
 
     - title: Lunch
       dateStart:  2020-05-12T12:00:00-04:00
